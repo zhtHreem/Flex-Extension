@@ -25,7 +25,7 @@ This Chrome extension allows you to **calculate your total and average marks** o
 3. The extension will calculate and display:
    - Total Marks
    -  Average Marks
-   -
+
 ## Preview
 ![Extension Screenshot](./demo.png)
 
@@ -46,12 +46,6 @@ This Chrome extension allows you to **calculate your total and average marks** o
 
 - Make sure you are on the **correct Flex page** where all your marks are visible.
 - The extension won’t work on unrelated pages.
-
----
-
-## 🛠 Developer Notes (optional)
-
-This extension uses basic DOM manipulation to extract your marks and perform real-time calculations inside the popup.
 
 ---
 
