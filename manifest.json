@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Flex Extension",
+    "version": "1.0",
+    "description": "Calculates averages of report tables and displays them",
+    "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Show Averages",
+      "default_icon": {
+      "16": "flex-16.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+    "16": "flex-16.png"
+    }
+  }
+  
